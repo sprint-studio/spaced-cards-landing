@@ -1,0 +1,14 @@
+# Site settings
+title: Spaced Cards
+email: hello@sprintstudio.co
+url: https://spacedcards.com
+description: "Learn anything and retain forever with a new app based on a Spaced Repetition System"
+keywords: "flashcards, Spaced Repetition System"
+meta_author: Davide Sicignani
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+    - title: twitter
+      url: http://twitter.com/00taffe
+    - title: github
+      url: http://github.com/thekage91

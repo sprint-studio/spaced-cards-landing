@@ -1,0 +1,152 @@
+---
+---
+
+@import "variables";
+
+.bg-dark-green {
+  background-color: $dark-green;
+}
+
+h2 {
+  color: $dark-green;
+  font-weight: $secondary-font-weight;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+
+  &.btn-primary {
+    background-color: $dark-brown;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  border-top: 6px solid $light-green;
+}
+
+section {
+  margin-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  .section-title {
+    margin-bottom: 20px;
+
+    &:after {
+      content: "";
+      display: block;
+      width: 10%;
+      padding-top: 10px;
+      border-bottom: 4px solid $soft-green;
+    }
+  }
+}
+
+mark {
+  
+  &.mark-dark {
+    background-color: $dark-brown;
+    color: white;
+  }
+
+  &.mark-soft {
+    background-color: $soft-brown;
+  }
+
+  &.mark-light {
+    background-color: $light-green;
+  }
+  
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 13px;
+  a {
+    font-size: 10px;
+    opacity: 0.2;
+  }
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.media-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  background-color: $light-yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    color: $dark-green;
+    font-size: 40px;
+    font-weight: 800;
+  }
+}
+
+footer {
+  height: 100px;
+  padding-top: 60px;
+}
+
+header#header {
+  .hero {
+    height: 400px;
+    background: linear-gradient(rgba($dark-brown, 1), rgba($dark-brown, 0.96), rgba($dark-brown, 0.98)), url('../img//background.jpg');
+    background-size: contain;
+    background-color: $dark-brown;
+    color: $light-green;
+    padding-top: 70px;
+    text-align: center;
+  }
+
+  h1 {
+    color: white;
+    font-weight: 400;
+  }
+
+  .jumbotron {
+    background-color: white;
+    //box-shadow: 0px 0px 10px $light-green;
+    margin-top: -112px;
+    padding: 30px 80px 30px 80px;
+    border: 1px solid $light-green;
+  }
+
+  .input-group {
+    padding: 10px;
+    border-radius: 5px;
+    background: #e1f4f3;
+
+    input {
+      background: transparent;
+      border: none;
+
+      &:focus {
+        box-shadow: none;
+        background: transparent;
+      }
+    }
+
+    button {
+      border-radius: 5px !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .jumbotron {
+      background-color: white;
+      //box-shadow: 0px 0px 10px $light-green;
+      margin-top: 40px;
+      padding: 30px 20px 30px 20px;
+      border: 1px solid $light-green;
+    }
+  }
+}
