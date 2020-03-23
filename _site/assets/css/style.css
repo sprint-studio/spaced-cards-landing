@@ -12,6 +12,9 @@ h2 {
   .btn.btn-primary {
     background-color: #333333; }
 
+html, body {
+  width: 100%; }
+
 body {
   font-family: 'Lato', sans-serif;
   border-top: 6px solid #e1f4f3; }

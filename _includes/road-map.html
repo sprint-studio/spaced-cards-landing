@@ -1,0 +1,13 @@
+<section id="roadmap">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <h2 class="section-title">Road map</h2>
+            <ol>
+                {% for step in site.data.content.roadmap %}
+                <li>{{ step }}</li>
+            {% endfor %}
+            </ol>
+        </div>
+    </div>
+</section>

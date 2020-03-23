@@ -22,6 +22,10 @@ h2 {
   }
 }
 
+html, body {
+  width: 100%;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   border-top: 6px solid $light-green;
@@ -140,6 +144,7 @@ header#header {
     }
   }
 
+  
   @media (max-width: 768px) {
     .jumbotron {
       background-color: white;
