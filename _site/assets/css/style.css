@@ -40,13 +40,6 @@ mark.mark-soft {
 mark.mark-light {
   background-color: #e1f4f3; }
 
-footer {
-  margin-top: 30px;
-  font-size: 13px; }
-  footer a {
-    font-size: 10px;
-    opacity: 0.2; }
-
 .container-fluid {
   padding: 0px; }
 
@@ -65,7 +58,12 @@ footer {
 
 footer {
   height: 100px;
-  padding-top: 60px; }
+  padding-top: 60px;
+  margin-top: 30px;
+  font-size: 13px; }
+  footer a {
+    font-weight: bold;
+    color: #333333; }
 
 header#header .hero {
   height: 400px;

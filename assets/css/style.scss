@@ -67,12 +67,7 @@ mark {
 }
 
 footer {
-  margin-top: 30px;
-  font-size: 13px;
-  a {
-    font-size: 10px;
-    opacity: 0.2;
-  }
+  
 }
 
 .container-fluid {
@@ -98,6 +93,12 @@ footer {
 footer {
   height: 100px;
   padding-top: 60px;
+  margin-top: 30px;
+  font-size: 13px;
+  a {
+    font-weight: bold;
+    color: $dark-brown;
+  }
 }
 
 header#header {
